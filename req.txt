@@ -1,0 +1,4 @@
+sudo chmod +x /home/pi/Documents/App/BehgeneGUI
+sudo chmod +x /home/pi/Documents/App/StartServer.sh
+sudo chmod +x /home/pi/Documents/App/StopServer.sh
+sudo chmod +x /home/pi/Documents/App/startBehgene.sh
