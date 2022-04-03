@@ -1,0 +1,7 @@
+cd /home/pi/Documents/ && git clone https://github.com/Behgeneupdate/App.git
+sudo systemctl start behgene.service
+sudo chmod +x /home/pi/Documents/App/BehgeneGUI
+sudo chmod +x /home/pi/Documents/App/StartServer.sh
+sudo chmod +x /home/pi/Documents/App/StopServer.sh
+sudo chmod +x /home/pi/Documents/App/startBehgene.sh
+update successfull 600 second later will check
