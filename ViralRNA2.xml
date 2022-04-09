@@ -1,0 +1,73 @@
+<behgen>
+	<program>
+		<number>1</number>
+		<enable>True</enable>
+		<name>Viral RNA 2</name>
+		<date>2022-04-04</date>
+		<ispinned>True</ispinned>
+		<first_prob_temp>65</first_prob_temp>
+		<last_prob_temp>85</last_prob_temp>
+		<steps>
+		<step id="1">
+			<number>1</number>
+			<name>Magnetic beads</name>
+			<position>2</position>
+			<volume>300</volume>
+			<mixspeed>3</mixspeed>
+			<mixtime>0.2</mixtime>
+			<magtime>50</magtime>
+			<waittime>0</waittime>
+			<temperature>0</temperature>
+			<step_type>2</step_type>
+		</step>
+		<step id="2">
+			<number>2</number>
+			<name>Lysis</name>
+			<position>1</position>
+			<volume>800</volume>
+			<mixspeed>3</mixspeed>
+			<mixtime>5</mixtime>
+			<magtime>50</magtime>
+			<waittime>0</waittime>
+			<temperature>65</temperature>
+			<step_type>3</step_type>
+		</step>
+		<step id="3">
+			<number>3</number>
+			<name>Washing</name>
+			<position>3</position>
+			<volume>800</volume>
+			<mixspeed>3</mixspeed>
+			<mixtime>0.3</mixtime>
+			<magtime>50</magtime>
+			<waittime>0</waittime>
+			<temperature>0</temperature>
+			<step_type>4</step_type>
+		</step>
+		<step id="4">
+			<number>4</number>
+			<name>Elution</name>
+			<position>6</position>
+			<volume>100</volume>
+			<mixspeed>1</mixspeed>
+			<mixtime>2</mixtime>
+			<magtime>50</magtime>
+			<waittime>0</waittime>
+			<temperature>85</temperature>
+			<step_type>5</step_type>
+		</step>
+		<step id="5">
+			<number>5</number>
+			<name>End</name>
+			<position>2</position>
+			<volume>300</volume>
+			<mixspeed>1</mixspeed>
+			<mixtime>0.2</mixtime>
+			<magtime>0</magtime>
+			<waittime>0</waittime>
+			<temperature>0</temperature>
+			<step_type>6</step_type>
+		</step>
+		</steps>
+	</program>
+</behgen>
