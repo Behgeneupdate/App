@@ -11,7 +11,7 @@
  export HOME=/home/pi/
  export USER=pi
  DISPLAY=:0
- chmod +777 /home/pi/Documents/App/programsList.txt
+# chmod +777 /home/pi/Documents/App/programsList.txt
  chmod +777 /home/pi/.config/BehGene/BehGeneFirmware.ini
  #change YourProgramExactName to Exact name of your program that you want to auto start
  exec ./BehgeneGUI

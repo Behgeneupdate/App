@@ -22,10 +22,10 @@ int main(int argc, const char ** argv)
     printf("linker LedPin : GPIO %d(wiringPi pin)\n", i); /*when initialize wiring successfully,print message to screen*/
     digitalWrite(i, LOW);
     printf("Driver PIN on %d ...\n",i);
-    delay(50);
+    delay(5);
     digitalWrite(i, HIGH);
     printf("...Driver PIN off %d \n",i);
-    delay(50);
+    delay(5);
     pinMode(i, INPUT);
     return 0;
 }
